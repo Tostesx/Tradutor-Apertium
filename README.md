@@ -12,6 +12,10 @@ Este projeto realiza a tradução de textos do **Português para o Espanhol** ut
 - Código limpo e organizado em uma única pasta (sem dependências externas de código)
 
 ---
+## ☕ Requisitos
+
+Java **21** LTS
+**WLS** para o Windows
 
 ## ⚠️ Dependência Externa Obrigatória
 
@@ -23,8 +27,20 @@ Este projeto **não inclui o Apertium no repositório**.
 
 ## 💻 Instalação do Apertium
 
+###🪟 **Windows (via WSL)**
+ Instale o WSL (Subsistema Windows para Linux) e o Ubuntu:
+
+```bash
+wsl --install -d Ubuntu
+```
+```bash
+sudo apt update
+sudo apt install apertium apertium-por-spa
+```
+
 ### 🐧 **Linux (Ubuntu / Debian / Mint / etc.)**
 
 ```bash
 sudo apt update
 sudo apt install apertium apertium-por-spa
+```
