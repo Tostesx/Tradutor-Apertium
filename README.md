@@ -14,8 +14,8 @@ Este projeto realiza a tradução de textos do **Português para o Espanhol** ut
 ---
 ## ☕ Requisitos
 
-Java **21** LTS
-**WLS** para o Windows
+Java **21** LTS e 
+**(WLS)** para o Windows
 
 ## ⚠️ Dependência Externa Obrigatória
 
